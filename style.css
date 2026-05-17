@@ -1,0 +1,65 @@
+body {
+    background-color: #12161a;
+    color: #e0e6ed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#jogo-container {
+    background-color: #1a222a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #ffcc00; /* Dourado egípcio */
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+#imagem-passo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ffcc00;
+    margin-bottom: 20px;
+}
+
+#texto-historia {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+#botoes-escolha {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    background-color: #253341;
+    color: #ffffff;
+    border: 1px solid #ffcc00;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #12161a;
+    font-weight: bold;
+    transform: scale(1.02);
+}
